@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-perspective: 425px;
+  perspective: 425px;
+  font-size: .8rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgba(36,36,36,1);
+  background: -moz-linear-gradient(top, rgba(36,36,36,1) 0%, rgba(44,44,44,1) 50%, rgba(19,19,19,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(36,36,36,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(top, rgba(36,36,36,1) 0%, rgba(44,44,44,1) 50%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(top, rgba(36,36,36,1) 0%, rgba(44,44,44,1) 50%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(top, rgba(36,36,36,1) 0%, rgba(44,44,44,1) 50%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(36,36,36,1) 0%, rgba(44,44,44,1) 50%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#131313', GradientType=0 );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 480px;
+  height: 60vh;
+  position: relative;
+  transform: rotateX(10deg) rotateY(0deg);
+  background-image: url(./images/Soccer_Field_Transparant.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: space-between;
+  padding-bottom: 5vh;
+  box-sizing: border-box;
+}
+
+.playersRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerNum {
+  width: 2rem;
+  line-height: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 3px #333;
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+.playerName {
+  padding: .1rem .4rem;
+  width: 5rem;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+  margin: .2rem .8rem;
+  font-size: .6rem;
+  text-align: center;
+  box-shadow: 1px 1px 1px #333;
+}

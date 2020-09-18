@@ -1,0 +1,15 @@
+{
+  "name": "football-review-map",
+  "version": "0.1.0-beta",
+  "description": "",
+  "main": "npm start",
+  "scripts": {
+    "start": "./node_modules/.bin/nws -p 4050",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nws": "^1.1.1"
+  }
+}

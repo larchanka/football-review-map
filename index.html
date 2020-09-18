@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Review Map</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+
+  <div class="container" id="container"></div>
+
+</body>
+
+<script src="./index.js" type="text/javascript"></script>
+<script>
+  const hash = document.location.hash.replace('#', '');
+
+  if (!hash) {
+    throw new Error('No input information provided');
+  }
+  const pathRow = hash.split('/');
+
+  const squadFilePath = `./tournaments/${pathRow[1]}/${pathRow[2]}.md`;
+  const teamFilePath = `./config/${pathRow[3]}.md`;
+
+  loadFiles(squadFilePath, teamFilePath)
+    .then(drawPlayers);
+</script>
+
+</html>
