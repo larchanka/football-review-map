@@ -1,0 +1,31 @@
+Wayne Hennessey 13
+Stephen Henderson 19
+Vicente Guaita 31
+Joel Ward 2
+Patrick van Aanholt 3
+James Tomkins 5
+Scott Dann 6
+Cheikhou Kouyaté 8
+Mamadou Sakho 12
+Jeff Schlupp 15
+Gary Cahill 24
+Tyrick Mitchell 27
+Ryan Inniss 33
+Jaroslaw Jach 33
+Martin Kelly 34
+Sam Woods 35
+Jairo Riedewald 44
+Nathan Ferguson
+Luka Milivojevic 4
+Max Meyer 7
+Wilfried Zaha 11
+James McArthur 18
+James McCarthy 22
+Eberechi Eze 25
+Nya Kirby 37
+Brandon Pierrick 40
+Jordan Ayew 9
+Andros Townsend 10
+Christian Benteke 17
+Connor Wickham 21
+Michy Batshuayi 23
